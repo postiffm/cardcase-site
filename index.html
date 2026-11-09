@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cardcase</title>
+<meta name="description" content="Cardcase: scan business cards into a private contact list that never leaves your phone.">
+<link rel="icon" href="images/icon.png">
+<style>
+  :root { --fg: #17212c; --muted: #5f6b7a; --accent: #1c7ed6; --bg: #ffffff; --band: #174a7c; --line: #dbe2ea; }
+  @media (prefers-color-scheme: dark) { :root { --fg: #e5ecf3; --muted: #95a3b3; --accent: #4dabf7; --bg: #0f151c; --band: #123a61; --line: #2a3644; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif; }
+  .band { background: var(--band); color: #fff; }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 0 20px; }
+  header .wrap { display: flex; align-items: center; gap: 24px; padding-block: 40px; flex-wrap: wrap; }
+  header img { width: 96px; height: 96px; border-radius: 22px; }
+  header h1 { font-size: 40px; margin: 0; line-height: 1.1; }
+  header p { margin: 6px 0 0; color: #d0e6fb; font-size: 19px; }
+  main { padding-block: 28px 56px; }
+  h2 { font-size: 20px; margin: 28px 0 8px; }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  a { color: var(--accent); }
+  footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+  footer .wrap { padding-block: 20px; display: flex; gap: 20px; flex-wrap: wrap; }
+</style>
+</head>
+<body>
+<header class="band">
+  <div class="wrap">
+    <img src="images/icon.png" alt="Cardcase app icon">
+    <div>
+      <h1>Cardcase</h1>
+      <p>Scan business cards. Keep them on your phone.</p>
+    </div>
+  </div>
+</header>
+<main class="wrap">
+  <p>Cardcase is an Android app that turns business cards into a searchable contact list. Point the camera at a card
+  and it reads the name, company, phone, email and website for you.</p>
+
+  <h2>Private by design</h2>
+  <ul>
+    <li>No account, no ads, no tracking, no server.</li>
+    <li>The app has no internet permission: your cards stay on your phone.</li>
+    <li>Text is read on the phone itself; photos are never uploaded.</li>
+    <li>Export everything whenever you like: cards, photos, a spreadsheet, and a page you can open on your PC.</li>
+  </ul>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Scan the front and back of a card; fix anything the scanner misread.</li>
+    <li>Sort cards into categories and search by anything printed on them.</li>
+    <li>Call, text, email or visit a website in one tap.</li>
+    <li>Share a card as a text message or a contact file.</li>
+  </ul>
+</main>
+<footer>
+  <div class="wrap">
+    <a href="privacy-policy.html">Privacy policy</a>
+    <span>© 2026 Matt Postiff</span>
+  </div>
+</footer>
+</body>
+</html>
